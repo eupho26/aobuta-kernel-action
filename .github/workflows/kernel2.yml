@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       repository: { description: 'Repo', required: true, default: 'MinamiQuartet/android_kernel_xiaomi_earth' }
-      branch: { description: 'Branch', required: true, default: 'ksu-old' }
+      branch: { description: 'Branch', required: true, default: '24.0-ksu' }
       defconfig: { description: 'Defconfig', required: true, default: 'earth_defconfig' }
       zipname : { description: 'zip name', required: false, default: '-' }
       clang : { description: 'Clang URL', required: true, default: 'https://github.com/dreamsolister26/clarinet/releases/download/16836431/clang-r614150.tar.gz' }
